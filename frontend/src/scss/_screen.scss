@@ -1,0 +1,14 @@
+$phone: 540px;
+$tablet: 760px;
+
+
+@media screen and (max-width: $phone) { 
+    .locationForm .locationInput { 
+        flex-direction: column;
+    }
+    
+    .weatherInfo { 
+        width: 400px;
+    }
+    
+}

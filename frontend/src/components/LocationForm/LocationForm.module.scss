@@ -1,0 +1,49 @@
+@import '../../scss/style.scss';
+
+.locationForm { 
+    height: auto;
+    width: auto;
+    justify-content: center;
+    line-height: 2;
+    font: 1px solid black;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
+    .locationInput { 
+        display: flex;
+        justify-content: center;
+        margin-top: -1px;
+        align-items: center;
+    }
+    
+    .input { 
+        margin: 0 .2em;
+        border-radius: 0.5em;
+    }
+    
+    .countrySearchInput, .zipcodeSearchInput, .zipcodeSearchInput:focus  { 
+        border: 2px solid rgb(182, 198, 252);
+        background-color: $dark;
+        position: relative;
+        text-decoration: none;
+        outline: none;
+        color: rgb(236, 239, 255);
+        
+    }
+    
+    ::placeholder { 
+        color: rgb(236, 239, 255);
+    }
+    
+    button { 
+        box-sizing: border-box;
+        background-color: $dark;
+        border: 2px solid rgb(182, 198, 252);
+        border-radius: 0.5em;
+        color: rgb(236, 239, 255);
+        margin: 0 5px;
+
+        cursor: pointer;
+    }
+}
+
